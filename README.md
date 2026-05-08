@@ -20,6 +20,7 @@ Built for researchers, writers, deep thinkers, and heavy Grok users who want the
 - **Automatic pruning** — low-value entries cleaned with safety caps
 - **99 comprehensive tests** — battle-tested and production-ready
 - **Zero dependencies** — pure Python, works anywhere
+- **pip install ready** — `pyproject.toml` included for future PyPI release
 
 ## Quick Start
 
@@ -34,6 +35,7 @@ Option 2: Install as proper CLI (recommended)
 pip install shadow-vault
 shadow-vault
 ```
+Note: `pyproject.toml` is included in this repo. Once published to PyPI, Option 2 will become available.
 
 Then type `Shadow Vault: Help` to see all commands.
 
