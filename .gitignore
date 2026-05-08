@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ShadowVault specific
+vault.json
+vault_backups/
+*.tmp
