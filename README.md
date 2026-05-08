@@ -27,5 +27,47 @@ Built for researchers, writers, deep thinkers, and heavy Grok users who want the
 ```bash
 curl -O https://raw.githubusercontent.com/PLRTCore/shadow-vault/main/shadow_vault.py
 python shadow_vault.py
+```
 
+Option 2: Install as proper CLI (recommended)
+```bash
+pip install shadow-vault
+shadow-vault
+```
 
+Then type `Shadow Vault: Help` to see all commands.
+
+## Grok Migration Workflow (the killer feature)
+
+1. In ShadowVault type: `Shadow Vault: Prompt`
+2. Copy the printed prompt and paste it into any Grok chat
+3. Grok returns a clean JSON array
+4. Save it as `grok_export.json`
+5. In ShadowVault type: `Shadow Vault: Migrate` and select the file
+6. Done — your entire conversation history is now in your vault with proper importance + tags
+
+## Command Reference
+
+See `Shadow Vault: Help` inside the tool.
+
+## Why ShadowVault?
+
+Most note-taking tools forget context. ShadowVault **remembers what matters** — intelligently.
+
+Perfect for long research threads, building a true second brain, or never losing a key insight again.
+
+## Tech Highlights
+
+- Jaccard-based deduplication with recent-entry window
+- Composite scoring engine (tuned weights)
+- Atomic writes + backup rotation
+- Legacy format migration
+- Full test coverage (tokenizer, migration, pruning, persistence, etc.)
+
+## Contributing
+
+Contributions welcome! Open an issue or PR.
+
+## License
+
+MIT © 2026 PLRTCore
