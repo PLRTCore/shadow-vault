@@ -1,12 +1,12 @@
 """
-shadow_vault_full.py
+shadow_vault.py
 ====================
 ShadowVault — Persistent Research Memory Store
 with scored retrieval, deduplication, pruning, rediscovery,
 and Grok Research Migrator — all in one file.
 
 Run:
-    python shadow_vault_full.py
+    python shadow_vault.py
 
 COMMAND SET
 -----------
@@ -70,7 +70,7 @@ import tempfile
 from collections import deque, defaultdict
 from datetime import datetime
 from pathlib import Path
-
+__version__ = "0.1.0"
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # CONFIGURATION
